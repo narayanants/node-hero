@@ -6,7 +6,7 @@ npm in a nutshell:
 =================
 
   * npm is a pacakage manager for node.js apps.
-  * similar to maven for Java and Composer for PHP applications.
+  * similar to 'mavem' for Java and "composer" for PHP applications.
   * There are two primary interfaces you will interact with - the NPM website and the NPM command line toolkit.
   * npm comes bundled with Node.js, so no need to install it separately.
 
@@ -50,11 +50,11 @@ npm in a nutshell:
      * npm scripts is a very powerful concept.
      * With the help of them you can build small utilities or even compose complex build systems.
      * the most common are start and test.
-     * "start" helps you to describe how to start your application.
+     * "start" helps you to describe how to start your application. Very useful in PaaS platform which reads the package.json files.
      * "test" is for runnig tests.
 
      "scripts": {
-    "start": "node index.js",
-    "test": "mocha test",
-    "your-custom-script": "echo npm"
-  }
+      "start": "node index.js",
+      "test": "mocha test",
+      "your-custom-script": "echo npm"
+    }
