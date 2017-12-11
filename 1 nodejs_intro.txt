@@ -36,3 +36,4 @@ What is Node.js:
     node --version
     nvm install 8.9.1
     nvm use 8.9.1
+    nvm uninstall 8.9.1
