@@ -1,0 +1,10 @@
+What is Redis?
+--------------
+
+* Redis is an open source (BSD licensed), in-memory data structure store, used as database, cache and message broker.
+* Redis is designed to support different kinds of abstract data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperlogs and geospatial indexes with radius queries.
+
+We are going to store our user's session information in Redis, and not in the process's memory. This way our application will be a lot easier to scale.
+
+* Use Passport Module
+
